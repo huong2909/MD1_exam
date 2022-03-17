@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-    let b = "codegym"
+    let b= prompt("nhập chuỗi")
     let a = b.split("")
     function check() {
         check = true;
@@ -15,7 +15,7 @@
             if(a[i]==="a"||a[i]==="o"||a[i]==="e"||a[i]==="u"||a[i]==="i") {
                 count++
             }
-        }document.write(count)
+        }document.write("có" +" "+ count + " " + "ký tự nguyên âm" )
         return false
     }
     check()
