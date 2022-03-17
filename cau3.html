@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let b = "codegym"
+    let a = b.split("")
+    function check() {
+        check = true;
+        let count = 0
+        for (let i=0;i<a.length;i++) {
+            if(a[i]==="a"||a[i]==="o"||a[i]==="e"||a[i]==="u"||a[i]==="i") {
+                count++
+            }
+        }document.write(count)
+        return false
+    }
+    check()
+
+</script>
+</body>
+</html>

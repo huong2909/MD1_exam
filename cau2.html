@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [5,81,7,26,6,78,4,8]
+    let b = +prompt("nhập giá trị cần tìm");
+    function check() {
+        for (let i = 0; i < a.length; i++) {
+            if (b == a[i]) {
+                return i
+            }
+        }return -1
+    }
+    let i = check()
+    if(i==-1) {
+        alert("b không có trong mảng")
+    } else {
+        alert("b có nằm trong mảng")
+    }
+</script>
+</body>
+</html>
